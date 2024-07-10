@@ -15,5 +15,11 @@
   "workspaces": [
     "src/HidroFriends_backend",
     "src/HidroFriends_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@bundly/ic-core-js": "^0.4.3",
+    "@bundly/ic-react": "^0.4.3",
+    "helmet": "^7.1.0",
+    "react-router-dom": "^6.24.1"
+  }
 }
