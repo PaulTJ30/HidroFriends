@@ -4,7 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { Home } from './Home';
+import Home from './Home'; 
 
 export default function App() {
   const router = createBrowserRouter([
@@ -12,6 +12,7 @@ export default function App() {
       path: "/",
       element: <Home />,
     },
+
   ]);
 
   const client = Client.create({
@@ -34,3 +35,5 @@ export default function App() {
     </IcpConnectContextProvider>
   )
 }
+
+

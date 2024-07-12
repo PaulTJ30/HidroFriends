@@ -1,0 +1,137 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    /* light blue background */
+    color: #333;
+}
+
+.AuthButton {
+    background-color: #4b7bec;
+    /* Color azul de ICP */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.AuthButton:hover {
+    background-color: #3867d6;
+    /* Un tono más oscuro de azul para hover */
+    transform: scale(1.05);
+}
+
+.auth-button:active {
+    background-color: #274c9d;
+    /* Un tono más oscuro para active */
+    transform: scale(1);
+}
+
+.auth-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(75, 123, 236, 0.5);
+    /* Efecto de foco */
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.group-header {
+    text-align: center;
+}
+
+
+header {
+    background-color: #87cefa;
+    /* sky blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.welcome-section h1 {
+    font-size: 2.5em;
+    color: #4682b4;
+    /* steel blue */
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.about-section {
+    background-color: #e0ffff;
+    /* light cyan */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    color: #4682b4;
+    /* steel blue */
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #87cefa;
+    /* sky blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
